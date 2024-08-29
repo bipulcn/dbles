@@ -1,0 +1,25 @@
+.topbar { min-height: 85px; margin: 0; padding: 0; border-bottom: thin solid rgba(0,0,0,0.1); }
+.logo { box-shadow: inset -10px 10px 50px var(--b5); width: 85px; background: var(--g4); padding: 10px 1px; display: inline-block; text-align: center; }
+.logo .fa { color: var(--w1); font-size: 2em; }
+.topbar ul { margin: 0 50px; padding: 0; float: right; }
+.topbar li { list-style: none; float: left; }
+.topbar li img { padding: 10px; margin-top: 16px; width: 35px; }
+.topbar li a { padding: 32px 15px; display: block; color: rgba(0,0,0,0.75); font-weight: 600; }
+
+.drop { display: inline; }
+.drop .drop-list { visibility: hidden; position: absolute; left: 22%; box-shadow: 15px 5px 10px var(--b3); }
+.drop:hover .drop-list { visibility: visible; }
+.drop-button { border:none; padding: 15px 20px; font-size: 1.2em; color: var(--w1); background: none; }
+.drop-list a { font-size: 1em; background: var(--c12); width: 100%; margin-top:-2px; text-shadow: 1px 1px 0 var(--b4); }
+.drop-list a:hover { background:var(--c14); border-left: 10px solid var(--c15); padding-left: 10px; box-shadow: 0 0 4px var(--b4); }
+.left_menu { color: var(--b3); }
+.menu_title { font-size: 1.5em; padding: 10px; margin-top: 20px; }
+.menu_title h5{ margin: 0; }
+.left_menu { border-right: thin solid var(--b5) }
+.left_menu * { margin: 0; padding: 0; }
+/* .left_menu li>ul { visibility: hidden; display: none; }
+.left_menu .active ul { visibility: visible; display: block; } */
+.left_menu a { padding: 25px 10px 25px 30px; display: block; color: var(--b3); }
+.left_menu>ul>li { background: rgba(0,0,0,0.01); border-bottom: thin solid var(--b5); }
+.left_menu li>ul { background: rgba(0,0,0,0.01); }
+.left_menu .fa { color: var(--b2); padding-right: 10px; }

@@ -1,0 +1,17 @@
+.topbar { margin-bottom: 30px; }
+.nav { box-shadow: 0 0 5px var(--b5);  list-style: none; font-weight: bold; margin-bottom: 10px; float: right; width: 100%; position: fixed; z-index: 5; background: var(--c17); display: block; }
+.nav li { float: right; position: relative; }
+.nav a { display: block; padding: 5px 10px; color: var(--w3); text-decoration: none; text-shadow: 0 1px 1px var(--b3); }
+.nav li:hover {  }
+.nav li:hover ul { display: block; }
+.nav ul { background: var(--w5); min-width: 200px; list-style: none; position: absolute; z-index: 7; display: none; box-shadow: 0 5px 10px var(--b5); }
+.nav ul li { padding-top: 1px; float: none; }
+.nav li ul { background: var(--c17); }
+.nav ul a { white-space: nowrap; }
+.nav li:hover ul { left: 0; }
+.nav li:hover a {  }
+.nav li:hover ul a { text-decoration: none; }
+.nav a:hover { color: var(--w1); }
+
+.loginform { background: var(--w1); position: fixed; width: 250px; padding: 20px 10px; right: 0; margin: 10px 10px; box-shadow: 0 3px 5px var(--b4); }
+.loginform input { width: 86% !important; margin: 2% 5% !important; padding-left: 4% !important; }

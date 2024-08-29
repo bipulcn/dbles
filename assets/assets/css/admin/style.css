@@ -1,0 +1,11 @@
+* { font-size: 0.985em; color: rgba(0,0,0,0.75); }
+.fa { padding: 5px; display: inline-block; }
+html, body { text-shadow: none;}
+html { background-size: contain; }
+hr { border:none; border-top: thin solid var(--b5); }
+/* body { background: var(--c57); } */
+a {  text-decoration:none; color: var(--b2); }
+img { width: 70%; }
+.mrb { margin-bottom: 50px; }
+.mrt { margin-top: 50px; }
+.imgprev { width: 404px; height: 250px; background-size: cover !important; background-position: center !important;}

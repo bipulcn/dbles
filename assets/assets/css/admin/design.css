@@ -1,0 +1,51 @@
+.tab-nav { margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.tab-nav li { list-style: none; flex-grow: 1; background: var(--w1); text-align: center; padding: 10px 15px; font-size: 1.2em; border-radius: 5px 5px 0 0; border: thin solid var(--b5); border-bottom: thin solid var(--b4); }
+.active { color: var(--c14) !important; border: thin solid var(--b4) !important; border-bottom: none !important; }
+
+.link { cursor: pointer; display: block;  padding: 7px 5px;}
+.cLink { cursor: pointer; display: inline-block;  padding: 7px 5px;}
+.link:hover { background: var(--c14); }
+.qote::before { content: "\""; }
+.qote::after { content: "\""; }
+
+.output * { color: var(--c22); }
+.output { background: #0002; border: thin solid #0002; border-radius: 5px; width: 50%; overflow: auto; }
+.outputContent { min-height: 37vh; max-height: 57vh; overflow: auto; width: 100%; }
+.output h6 { background: var(--c21); padding: 8px 10px; border-radius: 6px 6px 0 0; color: var(--w1); margin: 0; }
+
+.dbtable { padding: 1% 2% 3% 2%; }
+.dbtable * {  color: var(--b1); }
+.dbtable td, .dbtable th { border-right: 1px dashed var(--w1); padding: 0 5px; font-size: 1.0em; }
+.dbtable th { text-align: left; border-top: 1px dashed var(--w1); border-bottom: 1px dashed var(--w1); }
+.dbtable th:first-child, .dbtable td:first-child { border-left: 1px dashed var(--w1); }
+.dbtable tr:last-child td { border-bottom: 1px dashed var(--w1); }
+.marks { display: inline-block; border: thin solid var(--c34); border-radius: 5px; padding: 1px 8px; margin: 1px; font-size: 1.1em;}
+.result { background: var(--c24); }
+.table { width: 98vw; padding: 1vw; }
+.table tr { margin: 0; }
+.table th, .table td { padding: 9px 0px; text-align: center; }
+.table td div:nth-child(odd), .table th div:nth-child(odd)  { background: var(--c53); }
+.table tr:nth-child(odd) { background: var(--c51); }
+.table tr:nth-child(even) { background: var(--c52); }
+.table tr:first-child { background: var(--b5); }
+
+.footer { margin-top: 200px; }
+
+.selected { background: var(--c21); }
+
+.sev_list, .qus_list { padding: 0 0 10px 10px; margin: 10px; border:thin solid var(--b5); border-radius: 5px; }
+.sev_list h3, .qus_list h3 { background: var(--c37); padding: 10px;  margin:  0 -5px 0 -10px; border-radius: 5px 5px 0 0; text-shadow: 1px 1px 1px var(--w3); }
+.sev_list div>div, .qus_list div>div { margin-left: 20px; color: var(--c27); }
+.sev_qus_list { padding: 0 0 0 40px; }
+.sev_qus_list h6 { color: var(--c11); text-indent: -25px; }
+.sev_list h6 { color: var(--c12); }
+.sev_list h6:hover, .sev_qus_list h6:hover { color: var(--c14); }
+
+.srv_info h3, .srv_info h6, .srv_info div { padding: 0; margin: 0; text-transform: capitalize; }
+.surveyQues h5, .SurveyName h5 { background:var(--c37); padding: 5px 10px; text-shadow: 1px 1px 1px var(--w3); margin: 0; }
+.surveyQues, .SurveyName {padding: 0px;border-radius: 5px; margin: 10px 0 20px 0;}
+.surveyQues input[type='text'], .SurveyName input[type='text'], .surveyQues textarea, .SurveyName textarea { width: 95% !important; }
+.que_styl { margin:0 -5px 0 -10px; padding: 10px; }
+
+.form_set { padding: 0 10px 50px 10px;border: thin solid var(--b5);border-radius: 5px;margin: 10px 0 30px;position: sticky;top: 20px; }
+.form_set h4 { padding: 10px;margin: -0px -10px 10px -10px;background: var(--c31);border-radius: 5px 5px 0 0;text-shadow: 1px 1px 1px var(--w1);font-size: 1.2em; }

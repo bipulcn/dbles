@@ -1,0 +1,16 @@
+.topbar {}
+.nav { box-shadow: 0 0 5px var(--b5);  list-style: none; font-weight: bold; margin-bottom: 10px; float: right; width: 100%; position: fixed; z-index: 5; background: var(--w1); }
+.nav li { float: right; position: relative; }
+.nav a { display: block; padding: 5px 10px; color: var(--b3); text-decoration: none; }
+.nav li:hover { color: var(--b2); background: var(--b5); }
+
+.nav ul { background: var(--b1); min-width: 200px; list-style: none; position: absolute; left: -9999px; z-index: 7; }
+.nav ul li { padding-top: 1px; float: none; }
+.nav ul a { white-space: nowrap; color: var(--w1); }
+.nav li:hover ul { left: 0; }
+.nav li:hover a { }
+.nav li:hover ul a { text-decoration: none; }
+.nav li:hover ul li a:hover { background-color: var(--c55); }
+
+.loginform { background: var(--w1); position: fixed; width: 250px; padding: 20px 10px; right: 0; margin: 10px 10px; box-shadow: 0 3px 5px var(--b4); }
+.loginform input { width: 86%; margin: 2% 5%; padding: 3% 2%; font-size: 1.2em; }

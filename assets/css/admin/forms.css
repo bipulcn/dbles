@@ -1,0 +1,14 @@
+
+::-webkit-input-placeholder {  color: var(--b4); /* Chrome/Opera/Safari */}
+::-moz-placeholder {  color: var(--b4); /* Firefox 19+ */}
+:-ms-input-placeholder {  color: var(--b4); /* IE 10+ */}
+:-moz-placeholder {  color: var(--b4); /* Firefox 18- */}
+::-moz-selection { background-color: var(--b5); color: var(--c16); }
+::selection { background-color: var(--w5); color: var(--c16);  } /* Works in Safari */
+
+.css-form input.ng-invalid.ng-touched { background-color: var(--c46); }
+.css-form input.ng-valid.ng-touched { background-color: var(--c42); }
+.field_error { color: var(--c26); }
+.small { width: 25% !important; padding: 10px 1% !important; }
+.in { display: inline-block; }
+.search { border: none !important; background: none !important; border-bottom: .125em solid #737373 !important; border-width: 0 0 3px; padding: .1875em .375em !important; }

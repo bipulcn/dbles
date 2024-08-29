@@ -1,0 +1,67 @@
+.table_names { float: left; padding: 7px 10px; }
+
+.sql_cod_box { width: 95%; min-height: 12vh; padding: 5px 10px; background: var(--b5); border-radius: 5px; border: thin solid var(--b5); color: var(--b1); font-size: 1.1em; font-family: Courier, "Andale Mono", Arial; }
+/* .output * { color: var(--c22); }
+.output { background: var(--c45); overflow: auto; width: 50vw; margin: 2px; border-radius: 5px; }
+.outputContent { min-height: 37vh; max-height: 57vh; overflow: auto; width: 100%; }
+.output h6 { background: var(--c21); padding: 8px 10px; border-radius: 6px 6px 0 0; color: var(--w1); } */
+
+.dbtable { padding: 1% 2% 3% 2%; }
+.dbtable * {  color: var(--b1); }
+.dbtable td, .dbtable th { border-right: 1px dashed var(--w1); padding: 0 5px; font-size: 1.0em; }
+.dbtable th { text-align: left; border-top: 1px dashed var(--w1); border-bottom: 1px dashed var(--w1); }
+.dbtable th:first-child, .dbtable td:first-child { border-left: 1px dashed var(--w1); }
+.dbtable tr:last-child td { border-bottom: 1px dashed var(--w1); }
+
+.tabdesc { position: fixed; left: 8vw; top: 5vh; background: var(--w1); padding: 5vh; width: 80vw; }
+.desc, .tabdata { background: rgba(0, 0, 0, 0.02); border: thin solid var(--b4); border-top: none; max-height: 80vh; min-height: 60vh; overflow: auto; }
+.tabdesc table { padding: 5px 10px; }
+.tabdesc table th { border-right: thin dashed var(--b4); border-top: thin dashed var(--b4); border-bottom: thin dashed var(--b4); }
+.tabdesc table th:first-child { border-left: thin dashed var(--b4); }
+.tabdesc table td { border-right: thin dashed var(--b4); border-bottom: thin dashed var(--b4); }
+.tabdesc table td:first-child { border-left: thin dashed var(--b4); }
+.close { float: right; padding: 5px 7px 4px 7px; border: thin solid var(--b4); border-radius: 5px 5px 0 0; cursor: pointer; }
+.tabs { border: thin solid var(--b4); background: rgba(0, 0, 0, 0.02); border-radius: 5px 5px 0 0; padding: 5px; text-align: center; cursor: pointer; }
+.nbbm { border-bottom: none; }
+.sel_btn { background: var(--c46); }
+
+.preloader { position: fixed; left: calc(50vw - 50px); top: calc(40vh - 50px); padding: 5vh; width: 100px; z-index: 100; -webkit-filter: grayscale(20%) contrast(4); filter: grayscale(20%) contrast(4); }
+
+.contentbox { background: var(--c57); }
+.leslist { background: var(--c47); }
+.lesdetail { background: var(--w2); padding: 2.5%; }
+.lesdetail *{ color: var(--b1); }
+.lesobject { background: var(--w2); padding: 2.5%; border-left: 1px solid var(--b4); }
+.lesobject *{ color: var(--b1); }
+.schemalst { background: var(--w1); border-top: 1px solid var(--w1); }
+.schemalst>div { }
+.probList { background: var(--w1); }
+.baseProblem { background: var(--c57); }
+.sameProblem { background: var(--c57); }
+.lesList { min-width: 300px; }
+
+.link { cursor: pointer; display: block; padding: 7px 10px; }
+.link:hover { color: #00a1ff; background: var(--b5); }
+
+.smallOption { min-width: 100px; padding: 7px 10px; }
+.fkclass { color: var(--c11); }
+
+.arrow5 { float: right; border: 5px solid transparent; position: relative; margin-right: -5px; top: 40%; }
+.arrow { float: right; border: 20px solid transparent; position: relative; margin-right: -5px; top: 30%; }
+.ar-right { border-left: 5px solid #00a1ff; border-right: 0; }
+.ar-left { border-right: 5px solid #00a1ff; border-left: 0; }
+.ar-bottom { border-top: 5px solid #00a1ff; margin-top: 10px; }
+.ar-top { border-bottom: 5px solid #00a1ff; margin-top: 10px; }
+
+.qlist {display: flex;flex-wrap: wrap; padding: 0 30px; }
+.qlist::after { content: ""; border-bottom: 10px solid #00000020; position: absolute; width: calc(100% - 180px); margin-left: 60px; z-index: 0; margin-top:55px; }
+.numq { flex-grow: 1; text-align: center; padding: 10px; z-index: 1; margin-top: 40px }
+.curnt::after { content: ""; border: 5px solid skyblue; filter: drop-shadow(0 0 1px gray); border-top: 0 solid transparent; border-left: 0 solid transparent; padding:4px; transform: rotate(-45deg); position: absolute; margin-top: 4px; }
+.numq i { background: #ccccccd4; padding: 10px 15px; border-radius: 10px; color: white; font-size: 1.2em; font-weight: 800; text-shadow: 0 0 1px rgba(0, 0, 0, 0.4); box-shadow: 0 0 1px #000000ba; cursor: pointer; }
+.curnt i { background: skyblue; z-index: 1; }
+.ques {padding: 30px 50px 80px;max-width: 600px;margin: 0 auto;}
+.ques h4 { text-indent: -40px; }
+.ques label { padding: 5px 23px; display: block; }
+.thnks { text-align: center; padding: 100px 10px; min-height: 400px; }
+.s_title {padding: 30px; text-transform:capitalize; background: var(--c45); }
+.nxt { float: right; text-transform: uppercase; font-size: 1.2em; }

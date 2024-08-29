@@ -1,0 +1,11 @@
+* { color: rgba(0,0,0,0.75); text-shadow: none; }
+.fa { padding: 5px; display: inline-block; }
+/*body { background: url('../img/sample.jpg') no-repeat; background-size: contain; background-position: 0% 25%; }*/
+a { text-decoration: none; }
+span { color: var(--b2); }
+
+li { list-style: none; text-indent: 5px; }
+
+.footer { background: var(--b1); }
+.footer * {color: var(--w1); }
+.enble { background: var(--c43) !important; }
